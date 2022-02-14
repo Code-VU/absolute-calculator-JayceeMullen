@@ -5,9 +5,9 @@ def calculateAbsolute():
     in_num  = int(input("Enter a number: "))
 
     if in_num > target_num:
-        print(abs(2*(in_num-target_num)))
+        print("Result:",abs(2*(in_num-target_num)))
     else:
-        print(abs(in_num-target_num))
+        print("Result:",abs(in_num-target_num))
     # end assignment
 
 ## if you want to test locally before you try to sync
