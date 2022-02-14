@@ -5,13 +5,15 @@ def calculateAbsolute():
     in_num  = int(input("Enter a number: "))
 
     if in_num > target_num:
-        print(abs(in_num - target_num)*2)
+        print(abs(2*(in_num-target_num)))
     else:
-        print(abs(in_num - target_num))
+        print(abs(in_num-target_num))
     # end assignment
 
 ## if you want to test locally before you try to sync
 ## uncomment calculateAbsolute() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-#calculateAbsolute()
+
+if __name__ == "__main__":
+    calculateAbsolute()
